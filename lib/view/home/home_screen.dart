@@ -9,7 +9,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(child: Container(
       color:Provider.of<ThemeProvider>(context).darkTheme?Color(0xFF808080) : Color(0xFFF1F1F1),
-      child:Center(child:Text("Home Screen",style: titilliumRegular.copyWith(color: ColorResources.getLightSkyBlue(context))))
+      child:Center(child:Text("Home Screen",style: josefinRegular.copyWith(color: ColorResources.getLightSkyBlue(context))))
     ));
   }
 }

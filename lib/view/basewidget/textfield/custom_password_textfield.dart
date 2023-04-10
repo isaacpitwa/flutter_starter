@@ -59,7 +59,7 @@ class _CustomPasswordTextFieldState extends State<CustomPasswordTextField> {
             filled: true,
             fillColor: Theme.of(context).accentColor,
             focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: Theme.of(context).primaryColor)),
-            hintStyle: titilliumRegular.copyWith(color: Theme.of(context).hintColor),
+            hintStyle: josefinRegular.copyWith(color: Theme.of(context).hintColor),
             border: InputBorder.none),
       ),
     );

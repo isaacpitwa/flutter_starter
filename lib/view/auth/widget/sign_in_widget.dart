@@ -135,12 +135,12 @@ class _SignInWidgetState extends State<SignInWidget> {
                     ),
                     //
 
-                    Text(getTranslated('REMEMBER', context), style: titilliumRegular),
+                    Text(getTranslated('REMEMBER', context), style: josefinRegular),
                   ],
                 ),
                 InkWell(
                   // onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => ForgetPasswordScreen())),
-                  child: Text(getTranslated('FORGET_PASSWORD', context), style: titilliumRegular.copyWith(color: ColorResources.getLightSkyBlue(context))),
+                  child: Text(getTranslated('FORGET_PASSWORD', context), style: josefinRegular.copyWith(color: ColorResources.getLightSkyBlue(context))),
                 ),
               ],
             ),
@@ -161,7 +161,7 @@ class _SignInWidgetState extends State<SignInWidget> {
           ),
 
           SizedBox(height: 20),
-          Center(child: Text(getTranslated('OR', context), style: titilliumRegular.copyWith(fontSize: 12))),
+          Center(child: Text(getTranslated('OR', context), style: josefinRegular.copyWith(fontSize: 12))),
 
           //for order as guest
           GestureDetector(
@@ -180,7 +180,7 @@ class _SignInWidgetState extends State<SignInWidget> {
                 borderRadius: BorderRadius.circular(6),
                 border: Border.all(color: ColorResources.getHint(context), width: 1.0),
               ),
-              child: Text(getTranslated('CONTINUE_AS_GUEST', context), style: titilliumSemiBold.copyWith(color: ColorResources.getPrimary(context))),
+              child: Text(getTranslated('CONTINUE_AS_GUEST', context), style: josefinSemiBold.copyWith(color: ColorResources.getPrimary(context))),
             ),
           ),
         ],

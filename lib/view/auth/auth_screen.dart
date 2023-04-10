@@ -64,7 +64,7 @@ class AuthScreen extends StatelessWidget{
                                 onTap: () => _pageController.animateToPage(0, duration: Duration(seconds: 1), curve: Curves.easeInOut),
                                 child: Column(
                                   children: [
-                                    Text(getTranslated('SIGN_IN', context), style: authProvider.selectedIndex == 0 ? titilliumSemiBold : titilliumRegular),
+                                    Text(getTranslated('SIGN_IN', context), style: authProvider.selectedIndex == 0 ? josefinSemiBold : josefinRegular),
                                     Container(
                                       height: 1,
                                       width: 40,
@@ -79,7 +79,7 @@ class AuthScreen extends StatelessWidget{
                                 onTap: () => _pageController.animateToPage(1, duration: Duration(seconds: 1), curve: Curves.easeInOut),
                                 child: Column(
                                   children: [
-                                    Text(getTranslated('SIGN_UP', context), style: authProvider.selectedIndex == 1 ? titilliumSemiBold : titilliumRegular),
+                                    Text(getTranslated('SIGN_UP', context), style: authProvider.selectedIndex == 1 ? josefinSemiBold : josefinRegular),
                                     Container(
                                         height: 1,
                                         width: 50,

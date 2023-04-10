@@ -79,7 +79,7 @@ class CustomTextField extends StatelessWidget {
           isDense: true,
           counterText: '',
           focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: Theme.of(context).primaryColor)),
-          hintStyle: titilliumRegular.copyWith(color: Theme.of(context).hintColor),
+          hintStyle: josefinRegular.copyWith(color: Theme.of(context).hintColor),
           errorStyle: TextStyle(height: 1.5),
           border: InputBorder.none,
         ),

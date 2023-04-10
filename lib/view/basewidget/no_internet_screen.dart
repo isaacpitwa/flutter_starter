@@ -21,7 +21,7 @@ class NoInternetOrDataScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(isNoInternet ? Images.no_internet : Images.no_data, width: 150, height: 150),
-            Text(isNoInternet ? getTranslated('OPPS', context) : getTranslated('sorry', context), style: titilliumBold.copyWith(
+            Text(isNoInternet ? getTranslated('OPPS', context) : getTranslated('sorry', context), style:josefinBold.copyWith(
               fontSize: 30,
               color: isNoInternet ? Theme.of(context).textTheme.bodyText1!.color : ColorResources.getColombiaBlue(context),
             )),
@@ -29,7 +29,7 @@ class NoInternetOrDataScreen extends StatelessWidget {
             Text(
               isNoInternet ? 'No internet connection' : 'No data found',
               textAlign: TextAlign.center,
-              style: titilliumRegular,
+              style: josefinRegular,
             ),
             SizedBox(height: 40),
             isNoInternet ? Container(
@@ -45,7 +45,7 @@ class NoInternetOrDataScreen extends StatelessWidget {
                 child: Container(
                   width: double.infinity,
                   alignment: Alignment.center,
-                  child: Text(getTranslated('RETRY', context), style: titilliumSemiBold.copyWith(color: Theme.of(context).accentColor, fontSize: Dimensions.FONT_SIZE_LARGE)),
+                  child: Text(getTranslated('RETRY', context), style: josefinSemiBold.copyWith(color: Theme.of(context).accentColor, fontSize: Dimensions.FONT_SIZE_LARGE)),
                 ),
               ),
             ) : SizedBox.shrink(),

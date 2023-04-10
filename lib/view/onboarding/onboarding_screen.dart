@@ -49,8 +49,8 @@ class OnBoardingScreen extends StatelessWidget {
                         child: Column(
                           children: [
                             Image.asset(onBoardingList.onBoardingList[index].imageUrl, height: _height*0.5),
-                            Text(onBoardingList.onBoardingList[index].title, style: titilliumBold.copyWith(fontSize: _height*0.035), textAlign: TextAlign.center),
-                            Text(onBoardingList.onBoardingList[index].description, textAlign: TextAlign.center, style: titilliumRegular.copyWith(
+                            Text(onBoardingList.onBoardingList[index].title, style: josefinBold.copyWith(fontSize: _height*0.035), textAlign: TextAlign.center),
+                            Text(onBoardingList.onBoardingList[index].description, textAlign: TextAlign.center, style: josefinRegular.copyWith(
                               fontSize: _height*0.015,
                             )),
                           ],
@@ -95,7 +95,7 @@ class OnBoardingScreen extends StatelessWidget {
                           alignment: Alignment.center,
                           child: Text(onBoardingList.selectedIndex == onBoardingList.onBoardingList.length - 1
                               ? getTranslated('GET_STARTED', context) : getTranslated('NEXT', context),
-                              style: titilliumSemiBold.copyWith(color: Colors.white, fontSize: Dimensions.FONT_SIZE_LARGE)),
+                              style: josefinSemiBold.copyWith(color: Colors.white, fontSize: Dimensions.FONT_SIZE_LARGE)),
                         ),
                       ),
                     ),

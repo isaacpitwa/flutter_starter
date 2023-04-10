@@ -225,7 +225,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                 Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => HomeScreen()));
               },
               child: Text(getTranslated('SKIP_FOR_NOW', context),
-                  style: titilliumRegular.copyWith(fontSize: Dimensions.FONT_SIZE_SMALL, color: ColorResources.getColombiaBlue(context))),
+                  style: josefinRegular.copyWith(fontSize: Dimensions.FONT_SIZE_SMALL, color: ColorResources.getColombiaBlue(context))),
             )),
       ],
     );
